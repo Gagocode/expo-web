@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>No problem</title>
+</head>
+<body>
+    <div class="top">
+        <h1>No problem, No regret.</h1>
+        <p>Solve your parent's regret and problem with AI</p>
+    </div>
+    <div class="parents">
+        <div class="papa">
+            <div class="pfp">
+                <img src="attr/man.gif" alt="papa" class="dad">
+                <h4>Father</h4>
+                <form>
+                    <label for="fname">Discribe your Father's recent problems:</label>
+                    <br>
+                    <textarea type="text" id="father" name="fproblem" rows="12" cols="20"></textarea>
+                </form>
+            </div>
+        </div>
+        <div class="mama">
+            <div class="pfp">
+                <img src="attr/woman.gif" alt="mama" class="mom">
+                <h4>Mother</h4>
+                <form>
+                    <label for="fname">Discribe your Mother's recent problems:</label>
+                    <br>
+                    <textarea type="text" id="mother" name="mproblem" rows="12" cols="20"></textarea>
+                  </form>
+            </div>
+        </div>
+    </div>
+    <div class="promt">
+        <button onclick="show()" class="button-31" id="btn">Button 31</button>
+        <div id="terminal">
+        <p>loading<span class="load">.</span><span class="load">.</span><span class="load">.</span></p>
+        <p class="here"></p>
+        </div>
+    </div>
+</body>
+</html>
